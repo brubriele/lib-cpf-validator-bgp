@@ -1,0 +1,19 @@
+{
+  "name": "lib-cpf-validator-bgp",
+  "version": "1.0.0",
+  "description": "Validador de CPF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brubriele/lib-cpf-validator-bgp.git"
+  },
+  "author": "Bruna Gabriele de Paula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brubriele/lib-cpf-validator-bgp/issues"
+  },
+  "homepage": "https://github.com/brubriele/lib-cpf-validator-bgp#readme"
+}
