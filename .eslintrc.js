@@ -41,7 +41,7 @@ module.exports = {
         "space-before-function-paren": 1,
         "func-call-spacing": 1,
         "no-multiple-empty-lines": 1,
-        "padded-blocks": 1,
+        "padded-blocks" : ["error", "never"],
         "quotes": 1, //???
         "no-floating-decimal": 1,
         "object-property-newline": 1,
