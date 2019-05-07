@@ -35,7 +35,10 @@ describe('Validador de dígitos CPF', () => {
         expect(cpfValidator(86771406008)).to.equal(false)
     });
     it('Deve retornar false', () => {
-        expect(cpfValidator(99253873082)).to.equal(false)
+        expect(cpfValidator(888888888888)).to.equal(false)
+    });
+    it('Deve retornar false', () => {
+        expect(cpfValidator(44444444444)).to.equal(false)
     });
     it('Deve retornar false', () => {
         expect(cpfValidator(01965814092)).to.equal(false)
