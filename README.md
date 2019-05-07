@@ -10,7 +10,7 @@ $  npm install lib-cpf-validator-bgp
 # Como utilizar
 
 ```js
-> const cardValidator = require("lib-valid-credit-card");
-> console.log(cardValidator(6062822004739263))
+> const cpfValidator = require("lib-cpf-validator-bgp");
+> console.log(cpfValidator(70798791080))
 > // returns "true"
 ```
