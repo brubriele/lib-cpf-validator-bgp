@@ -4,10 +4,10 @@ const cpfValidator = require("../lib/index.js")
 
 describe('Validador de dígitos CPF', () => {
     it('Deve retornar true', () => {
-        expect(cpfValidator(35369110808)).to.equal(true)
+        expect(cpfValidator(77367047086)).to.equal(true)
     });
     it('Deve retornar true', () => {
-        expect(cpfValidator(00693629045)).to.equal(true)
+        expect(cpfValidator(70798791080)).to.equal(true)
     });
     it('Deve retornar true', () => {
         expect(cpfValidator(56771406008)).to.equal(true)
@@ -16,17 +16,17 @@ describe('Validador de dígitos CPF', () => {
         expect(cpfValidator(99252873082)).to.equal(true)
     });
     it('Deve retornar true', () => {
-        expect(cpfValidator(00965814092)).to.equal(true)
+        expect(cpfValidator(99921275038)).to.equal(true)
     });
     it('Deve retornar true', () => {
         expect(cpfValidator(90525888055)).to.equal(true)
     });
     it('Deve retornar true', () => {
-        expect(cpfValidator(33312972086)).to.equal(true)
+        expect(cpfValidator(00883339064)).to.equal(true)
     });
 
     it('Deve retornar false', () => {
-        expect(cpfValidator(123)).to.equal(false)
+        expect(cpfValidator(94906299018)).to.equal(false)
     });
     it('Deve retornar false', () => {
         expect(cpfValidator(00693729045)).to.equal(false)
@@ -35,7 +35,10 @@ describe('Validador de dígitos CPF', () => {
         expect(cpfValidator(86771406008)).to.equal(false)
     });
     it('Deve retornar false', () => {
-        expect(cpfValidator(99253873082)).to.equal(false)
+        expect(cpfValidator(888888888888)).to.equal(false)
+    });
+    it('Deve retornar false', () => {
+        expect(cpfValidator(44444444444)).to.equal(false)
     });
     it('Deve retornar false', () => {
         expect(cpfValidator(01965814092)).to.equal(false)
