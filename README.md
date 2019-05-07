@@ -1,4 +1,4 @@
-# Validador de Cadastro de Pessoa Física (CPF)  v.1.0.0
+# Validador de Cadastro de Pessoa Física (CPF)  v.1.0.1
 
 **A biblioteca tem como finalidade validar os dígitos verificadores do CPF (usando o algoritmo conhecido como "módulo 11")**. Na versão inicial retorna `true` ou `false` como resultado da validação.
 
