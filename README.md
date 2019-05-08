@@ -11,6 +11,6 @@ $  npm install lib-cpf-validator-bgp
 
 ```js
 > const cpfValidator = require("lib-cpf-validator-bgp");
-> console.log(cpfValidator('70798791080'))
+> cpfValidator('70798791080')
 > // returns "true"
 ```
